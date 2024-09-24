@@ -19,6 +19,8 @@ public class DialogueScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Debug.Log("Hello world!");
+        
         FILE_PATH = Application.dataPath + FILE_DIR + FILE_NAME;
 
         if (File.Exists(FILE_PATH)) 
